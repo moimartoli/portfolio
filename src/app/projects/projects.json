@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "cardimg":"assets/dummy.jpg",
+        "title":"Chess Club",
+        "content":"Web Page",
+        "technologies": [{"img":"assets/Raspberry_Pi_Logo.svg"},{"img":"assets/k3s-icon-color.svg"}]
+    },
+    {
+        "id":2,
+        "cardimg":"assets/dummy.jpg",
+        "title":"Tile dummy",
+        "content":"Content dummy",
+        "technologies": [{"img":"assets/docker.svg"},{"img":"assets/bulma-seeklogo.com.svg"}]
+    },
+    {
+        "id":3,
+        "cardimg":"assets/dummy.jpg",
+        "title":"Tile dummy",
+        "content":"Content dummy",
+        "technologies": [{"img":"assets/rust.svg"},{"img":"assets/typescript.svg"}]
+    },
+    {
+        "id":4,
+        "cardimg":"assets/dummy.jpg",
+        "title":"Tile dummy",
+        "content":"Content dummy",
+        "technologies": [{"img":"assets/Angular.svg"},{"img":"assets/java.svg"}]
+    },
+    {
+        "id":5,
+        "cardimg":"assets/dummy.jpg",
+        "title":"Tile dummy",
+        "content":"Content dummy",
+        "technologies": [{"img":"assets/Raspberry_Pi_Logo.svg"},{"img":"assets/k3s.svg"}]
+    }
+]

@@ -25,9 +25,11 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/curriculum/assets"
             ],
             "styles": [
+              "./node_modules/bulma/css/bulma.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -88,9 +90,11 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/app/curriculum/assets"
             ],
             "styles": [
+              "./node_modules/bulma/css/bulma.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "portfolio"
+  "defaultProject": "portfolio",
+  "cli": {
+    "analytics": "69e6046f-8b47-4d50-a450-e31b17fefef4"
+  }
 }

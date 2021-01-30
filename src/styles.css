@@ -1,1 +1,277 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    /*--bg: #071e36;*/
+    --bg: white;
+   
+    --main-font-family: Calibri;
+    --main-color-blue: #729FCF;
+    --main-color-red: #C9211E;
+    --main-color-gray: lightgrey;
+  }
+  
+  body {
+    background: var(--bg);
+  }
+  
+  .box {
+  
+    background: var(--main-color-blue);
+  }
+  
+  .card {
+    overflow: hidden;
+    /*background: ghostwhite;*/
+    background: var(--main-color-blue);
+    color: var(--bg);
+    box-shadow: 3px 3px 3px var(--main-color-gray);;
+   
+  }
+
+  
+  .card.large {
+    border-radius: 10px;
+  }
+
+  .row-header
+{
+	padding: 10px;
+}
+
+/* Header Columns */
+.column-leftheader {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+.column-centerheader {
+  float: left;
+  width: 55%;
+  padding: 10px;
+}
+.column-rightheader {
+  float: left;
+  width: 30%;
+  padding: 10px;
+
+}
+
+.address
+{
+	text-align: right;
+}
+
+
+/*  Content three colums */
+.column-leftheadercontent {
+  float: left;
+  width: 80%;
+  padding: 0px;
+}
+.column-rightheadercontent {
+  float: left;
+  width: 20%;
+  padding: 0px;
+  text-align: right
+}
+.column-content {
+  float: left;
+  width: 100%;
+  padding: 0px;
+}
+
+.column-content-label {
+  float: left;
+  width: 40%;
+  padding: 0px;
+}
+
+.column-content-value {
+  float: left;
+  width: 60%;
+  padding: 0px;
+}
+.content-value
+{
+  color: var(--main-color-red);
+}
+
+/*images*/
+.iconimg {
+  vertical-align: middle;
+  width: auto;
+  height: 36px;
+ }
+
+.certimg
+{
+	vertical-align: middle;
+	margin:4px;
+	float: left;
+	width: auto;
+	height: 16px;
+}
+
+/* My picture */
+.roundimg {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  border-radius: 20%;}
+
+/* Create two columns that floats next to each other */
+.column-left {
+  float: left;
+  width: 40%;
+  padding: 20px;
+}
+
+.column-right {
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+
+
+/* Rounded border */
+hr.rounded {
+  border-top: 3px solid var(--main-color-blue);
+  border-radius: 3px;
+}
+
+/* Title */
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--main-font-family);
+  color: var(--main-color-blue);
+  font-size: 32px;
+}
+
+/* Subtitle */
+h2 {
+  margin-top: 0;
+  font-family: var(--main-font-family);
+  color: var(--main-color-red);
+  font-size: 24px;
+}
+
+/* Section Title */
+h3 {
+  font-family: var(--main-font-family);
+  color: var(--main-color-blue);
+  font-size: 24px;
+  margin-top: 0;
+
+}
+
+/* Dates */
+h4 {
+  font-family: var(--main-font-family);
+  color: var(--main-color-blue);
+  font-size: 16px;
+  margin-bottom: 0em;
+  font-weight: normal;
+
+}
+
+/* Company */
+h5 {
+  font-family: var(--main-font-family);
+  color: var(--main-color-blue);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+/* Job Title */
+h6 {
+  font-family: var(--main-font-family);
+  color: var(--main-color-red);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: var(--main-font-family);
+  color: black;
+  font-size: 16px;
+  margin-top:0;
+  margin-bottom: 16px;
+}
+
+
+
+/* Clear floats after the columns */
+.row-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Override the float image left for bulma*/
+.media-left
+{
+  vertical-align: middle;
+}
+
+.left-float-img
+{
+	margin:6px;
+	float: left;
+	width: 10%;
+  
+
+}
+.left-float-content
+{
+  float: left;
+  width: 60%;
+  padding: 5px;
+}
+
+.project-title
+{
+  margin-top: 0;
+  font-family: var(--main-font-family);
+  color: var(--main-color-red);
+  font-size: 24px;
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-left {
+    width: 100%;
+	}
+  .column-right {
+    width: 100%;
+	}
+  .column-leftheader {
+    width: 100%;
+	}
+	.column-centerheader {
+		width: 100%;
+	}
+	.column-rightheader {
+		width: 100%;
+	}
+	.roundimg {
+		width: 50%;
+	}
+}
