@@ -13,6 +13,7 @@ export interface Projects
   id:number;
   cardimg:string;
   title:string;
+  subtitle: string;
   content:string;
   technologies: Technologies[];
 
