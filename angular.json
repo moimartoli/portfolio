@@ -29,7 +29,6 @@
               "src/app/curriculum/assets"
             ],
             "styles": [
-              "./node_modules/bulma/css/bulma.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,7 +93,6 @@
               "src/app/curriculum/assets"
             ],
             "styles": [
-              "./node_modules/bulma/css/bulma.css",
               "src/styles.css"
             ],
             "scripts": []

@@ -1,0 +1,115 @@
+
+/* Card Picture */
+.cardimg
+{
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+  border-radius: 4%;
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 10px var(--main-color-shadow);
+
+  }
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+       grid-gap: 20px;
+    padding: 10px;
+   }
+
+
+  
+  .card {
+    display: block;
+    top: 0px;
+    left: 0px;
+    position: relative;
+    max-width: 362px;
+    background-color: var(--main-color-cardback);
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 0;
+
+    border: 1px solid var(--main-color-cardback);
+  }
+  
+  
+  .card:hover {
+      transition: all 0.2s ease-out;
+      box-shadow: 0px 20px 20px var(--main-color-shadow);
+      top: -4px;
+      border: 1px solid #cccccc;
+      background-color: white;
+    }
+
+  
+  
+  /*
+  .card:before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: -16px;
+      right: -16px;
+      background: #00838d;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      transform: scale(2);
+      transform-origin: 50% 50%;
+      transition: transform 0.15s ease-out;
+    }
+   */ 
+    /*
+  .card:before {
+      transform: scale(2.15);
+    }
+  */
+  
+  /* List of icons*/
+  .incons-list
+  {
+    vertical-align: middle;
+  }
+  
+  .icon-float
+  {
+      margin:3px;
+      float: left;
+      width: 10%;
+    
+  
+  }
+
+  .icon-git
+  {
+
+      width: 100%;
+    
+  }
+
+
+
+.go-corner {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    width: 32px;
+    height: 32px;
+    top: 32px;
+    right: 32px;
+    background-color: var(--main-color-cardback);
+    padding: 5px;
+    border-radius: 100%;
+    border-width: 3px;
+    box-shadow: 0px 5px 5px var(--main-color-shadow);
+
+  }
+  
+
+ 

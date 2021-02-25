@@ -1,48 +1,26 @@
 
-  <div class="container">
-    <hr class="rounded">
-    <div class="section">
- 
-      <div id="app" class="row columns is-multiline">
-        <div *ngFor="let project of projects"  class="column is-4">
+  
+<hr class="rounded">
 
-		  
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="{{project.cardimg}}" alt="Image" alt="Placeholder image">
-              </figure>
-            </div>
-            <div class="card-content">
-              <div  class="media">
-                <div class="media-left">
-                  <div *ngFor="let techn of project.technologies">
-                    <div class="left-float-img">
-                        <img src="{{techn.img}}" alt="Image">                    
-                    </div>    
-                  </div>
-                  <div class="left-float-content media-content">
-                    <p class="title is-4" >{{project.title}}</p>
-                    <p class="subtitle is-6">{{project.subtitle}}</p>
-                  </div>
-              </div>
-            </div>
+<div class="portfolio-container">
+			 
+    <div  *ngFor="let project of projects">
 
-          
-            <div class="content">
-              {{project.content}} 
-              <br>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-            </div>
-
-
-                          
-
+        <div   class="card" href="#">
+          <h3>{{project.title}}</h3>
+          <img class="cardimg" src="{{project.cardimg}}" alt="{{project.title}}" >
+          <p>{{project.content}} </p>
+          <h5>Technologies</h5>
+          <div *ngFor="let techn of project.technologies" class="incons-list">
+            <img  class="icon-float" src="{{techn.img}}" alt="Image" alt="Placeholder image" >
           </div>
+            <a class = "go-corner"  href="https://www.google.com" target="_blank">
+            <img    class="icon-git" src= "assets/Git-logo.svg"  />
+            </a>
+    
         </div>
-      </div>
-    </div>
+
   </div>
 
-
+</div>  
 

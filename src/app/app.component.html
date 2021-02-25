@@ -1,39 +1,21 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item">
-      <img src="assets/chess.svg" width="40" >
-    </a>
+<div class="topnav">
+  <a routerLink="/home" routerLinkActive="active" class="navbar-item">
+    Home
+  </a>
 
- 
-    
+  <a routerLink="/projects" routerLinkActive="active" class="navbar-item">
+    Projects
+  </a>
 
-  </div>
+  <a routerLink="/curriculum" routerLinkActive="active" class="navbar-item">
+    Curriculum
+  </a>
 
-  <div class="navbar-menu">
-    <div class="navbar-end">
-
-    
-
-      <a routerLink="/home" routerLinkActive="active" class="navbar-item">
-        Home
-      </a>
-
-      <a routerLink="/projects" routerLinkActive="active" class="navbar-item">
-        Projects
-      </a>
-
-      <a routerLink="/curriculum" routerLinkActive="active" class="navbar-item">
-        Curriculum
-      </a>
-
-      <a routerLink="/architecture" routerLinkActive="active" class="navbar-item">
-        Architecture
-      </a>
-
-    </div>
+  <a routerLink="/architecture" routerLinkActive="active" class="navbar-item">
+    Architecture
+  </a>
 
 
-  </div>
-</nav>
+</div>
 
 <router-outlet></router-outlet>
