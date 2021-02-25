@@ -6,6 +6,11 @@ import { ArchitectureComponent } from './architecture/architecture.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    redirectTo: "/home",
+    pathMatch: 'full'
+  },
   { path: 'home', component: HomeComponent },
   { path: 'curriculum', component: CurriculumComponent },
   { path: 'architecture', component: ArchitectureComponent },

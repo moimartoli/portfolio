@@ -5,7 +5,7 @@
         "title":"Chess Club",
         "subtitle":"Web Chess Club",
         "content":"Web Page",
-        "technologies": [{"img":"assets/Raspberry_Pi_Logo.svg"},{"img":"assets/tailwind.svg"}]
+        "technologies": [{"img":"assets/java.svg"},{"img":"assets/tailwind.svg"}]
     },
     {
         "id":2,
